@@ -32,7 +32,7 @@ Once your changes are complete:
 
 1. Commit your changes: `git add .` `git commit -m "Description of changes made"`
 2. Push your branch to your forked respository: `git push origin your-feature-branch`
-3. Go to the GitHub Repostory and create a **Pull Request (PR)** from your branch to the main repositories `develop` branch.
+3. Go to the GitHub Repostory and create a **Pull Request (PR)** from your branch to the main repositories `main` branch.
 4. Ensure your PR:
     - Includes edits to the `changelog.md` file explaining your changes.
     - Adheres to the standards.
@@ -57,10 +57,11 @@ To preview your changes locally, you need to run the development server:
 
 ## **Building and deploying the Docs**
 If you are an admin you will also need to know how to **build and deploy** the docs.
-You should build and deploy **after every change to develop**. If you are an admin and are the one making or the one who reviewed and accepted the changes you are responsible for doing this yourself.
+You should build and deploy **after every change to main**. If you are an admin and are the one making or the one who reviewed and accepted the changes you are responsible for doing this yourself.
 
 - After merging the required changes from a PR into the `main` branch, Run the following command to build the documentation into a static site and deploy it to **GitHub Pages**: `mkdocs gh-deploy`.
 - **Warning** Using this command will deploy the site from your local branch, including changes that have not been commited, **delete or stash changes** first.
+- You will need to be a collaborator in the repository to perform this command.
 
 ## **Dealing with Merge Conflicts**
 If there are merge conflicts:
