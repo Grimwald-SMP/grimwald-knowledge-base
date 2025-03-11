@@ -299,7 +299,7 @@ Prior knowledge of <strong>GitHub</strong> and <strong>Git</strong> will be help
 <ol>
 <li>Commit your changes: <code>git add .</code> <code>git commit -m "Description of changes made"</code></li>
 <li>Push your branch to your forked respository: <code>git push origin your-feature-branch</code></li>
-<li>Go to the GitHub Repostory and create a <strong>Pull Request (PR)</strong> from your branch to the main repositories <code>develop</code> branch.</li>
+<li>Go to the GitHub Repostory and create a <strong>Pull Request (PR)</strong> from your branch to the main repositories <code>main</code> branch.</li>
 <li>Ensure your PR:<ul>
 <li>Includes edits to the <code>changelog.md</code> file explaining your changes.</li>
 <li>Adheres to the standards.</li>
@@ -323,10 +323,11 @@ Prior knowledge of <strong>GitHub</strong> and <strong>Git</strong> will be help
 </ol>
 <h2 id="building-and-deploying-the-docs"><strong>Building and deploying the Docs</strong></h2>
 <p>If you are an admin you will also need to know how to <strong>build and deploy</strong> the docs.
-You should build and deploy <strong>after every change to develop</strong>. If you are an admin and are the one making or the one who reviewed and accepted the changes you are responsible for doing this yourself.</p>
+You should build and deploy <strong>after every change to main</strong>. If you are an admin and are the one making or the one who reviewed and accepted the changes you are responsible for doing this yourself.</p>
 <ul>
 <li>After merging the required changes from a PR into the <code>main</code> branch, Run the following command to build the documentation into a static site and deploy it to <strong>GitHub Pages</strong>: <code>mkdocs gh-deploy</code>.</li>
 <li><strong>Warning</strong> Using this command will deploy the site from your local branch, including changes that have not been commited, <strong>delete or stash changes</strong> first.</li>
+<li>You will need to be a collaborator in the repository to perform this command.</li>
 </ul>
 <h2 id="dealing-with-merge-conflicts"><strong>Dealing with Merge Conflicts</strong></h2>
 <p>If there are merge conflicts:
