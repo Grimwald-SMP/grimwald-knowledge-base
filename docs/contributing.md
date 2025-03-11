@@ -59,8 +59,8 @@ To preview your changes locally, you need to run the development server:
 If you are an admin you will also need to know how to **build and deploy** the docs.
 You should build and deploy **after every change to develop**. If you are an admin and are the one making or the one who reviewed and accepted the changes you are responsible for doing this yourself.
 
-- After merging the required changes from a PR into the `develop` branch, Run the following command to build the documentation into a static site: `mkdocs build`. Once this is complete merge develop into `main`.
-- It will be automatically deployed **GitHub Pages** upon pushing the changes to `main`.
+- After merging the required changes from a PR into the `main` branch, Run the following command to build the documentation into a static site and deploy it to **GitHub Pages**: `mkdocs gh-deploy`.
+- **Warning** Using this command will deploy the site from your local branch, including changes that have not been commited, **delete or stash changes** first.
 
 ## **Dealing with Merge Conflicts**
 If there are merge conflicts:
