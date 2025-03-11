@@ -325,8 +325,8 @@ Prior knowledge of <strong>GitHub</strong> and <strong>Git</strong> will be help
 <p>If you are an admin you will also need to know how to <strong>build and deploy</strong> the docs.
 You should build and deploy <strong>after every change to develop</strong>. If you are an admin and are the one making or the one who reviewed and accepted the changes you are responsible for doing this yourself.</p>
 <ul>
-<li>After merging the required changes from a PR into the <code>develop</code> branch, Run the following command to build the documentation into a static site: <code>mkdocs build</code>. Once this is complete merge develop into <code>main</code>.</li>
-<li>It will be automatically deployed <strong>GitHub Pages</strong> upon pushing the changes to <code>main</code>.</li>
+<li>After merging the required changes from a PR into the <code>main</code> branch, Run the following command to build the documentation into a static site and deploy it to <strong>GitHub Pages</strong>: <code>mkdocs gh-deploy</code>.</li>
+<li><strong>Warning</strong> Using this command will deploy the site from your local branch, including changes that have not been commited, <strong>delete or stash changes</strong> first.</li>
 </ul>
 <h2 id="dealing-with-merge-conflicts"><strong>Dealing with Merge Conflicts</strong></h2>
 <p>If there are merge conflicts:
