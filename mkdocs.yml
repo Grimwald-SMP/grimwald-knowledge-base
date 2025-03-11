@@ -1,5 +1,6 @@
 site_name: Grimwald Knowledge Base
 site_description: A comprehensive knowledge base for Grimwald SMP
+site_dir: built-docs
 nav:
 - Home: index.md
 - 📚 General Information:
