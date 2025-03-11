@@ -1,0 +1,45 @@
+body::before {
+    background: none;
+    background-color: #343232;
+}
+
+p, ul, ol, a, h1, h2 {
+    color: white;
+}
+
+.navbar.bg-primary {
+    background-image: none;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #fe6a00 !important;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #343232;
+}
+
+.bg-body-tertiary, .dropdown-menu {
+    background-color: #fe6a00 !important;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #343232;
+}
+
+.modal-header {
+    color: white;
+}
+
+.modal-content {
+    background-color: #fe6a00;
+}

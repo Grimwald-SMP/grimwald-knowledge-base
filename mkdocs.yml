@@ -1,0 +1,40 @@
+site_name: Grimwald Knowledge Base
+site_description: A comprehensive knowledge base for Grimwald SMP
+nav:
+- Home: index.md
+- 📚 General Information:
+  - "📚 Rules": rules.md
+  - "📚 Roles": roles.md
+  - "📚 Seasons": seasons.md
+  - "📚 Events": events.md
+  - "📚 Economy": economy.md
+  - "📚 Donations": donations.md
+  - "📚 FAQ": faq.md
+- 🛡️ Moderation:
+  - "🛡️ Staff Guidelines": staff-guidelines.md
+  - "🛡️ Rule Enforcement": rule-enforcement.md
+  - "🛡️ Commands and Permissions": commands.md
+  - "🛡️ Report a Player": report.md
+  - "🛡️ Ban Appeals": ban-appeals.md
+- 🛠️ Server Management:
+  - "🛠️ Setting Up": server-setup.md
+  - "🛠️ Payments": payments.md
+  - "🛠️ Plugins": plugins.md
+  - "🛠️ Mods": mods.md
+  - "🛠️ Datapacks": datapacks.md
+- 🌐 Website:
+  - "🌐 Updating the Website": update-website.md
+  - "🌐 Timeline": timeline.md
+  - "🌐 Stats": stats.md
+- 🫂 Community:
+  - "🫂 Join Process": joining.md
+  - "🫂 Advertising": advertising.md
+  - "🫂 Brand Guidelines": brand-guidelines.md
+  - "🫂 Feedback and Suggestions": feedback.md
+- 📜 Docs:
+  - "📜 Contributing": contributing.md
+  - "📜 Standards": standards.md
+  - "📜 Changelog": changelog.md
+
+extra_css:
+  - style.css
