@@ -2,6 +2,8 @@
 
 This document outlines the **standards and guidelines** for creating and maintaining content within the **Grimwald Knowledge Base**. By adhering to these standards, we ensure the information remains **consistent, accessible, and clear** for everyone who uses it. Whether you’re adding new content, updating existing documents, or contributing to the knowledge base in any way, these standards should be followed to maintain quality and usability.  
 
+---
+
 # **1. Writing Style**  
 
 ## **Clarity & Simplicity**  
@@ -20,6 +22,8 @@ This document outlines the **standards and guidelines** for creating and maintai
 - **Abbreviations and acronyms** should be spelled out the first time they appear, followed by the abbreviation in parentheses (e.g., "Staff Member (SM)").  
 - Use **active voice** whenever possible (e.g., "Players must follow these rules," not "These rules must be followed by players"). 
 
+---
+
 # **2. Document Structure**  
 
 ## **Headings & Subheadings**  
@@ -27,7 +31,8 @@ This document outlines the **standards and guidelines** for creating and maintai
   - Example structure:  
     - **# Main Heading** (for major sections)  
     - **## Subheading** (for secondary sections)  
-    - Avoid using other levels of heading.
+  - Avoid using other levels of heading.
+  - Major sections should be numbered and separated with a horizontal rule `---`.
 
 ## **Numbered & Bulleted Lists**  
 - Use **bulleted lists** for unordered information and **numbered lists** for step-by-step instructions or when order matters.
@@ -41,8 +46,10 @@ This document outlines the **standards and guidelines** for creating and maintai
 
 ## **Links**  
 - Use **internal links** for cross-references to other parts of the knowledge base (e.g., [see the Contributing Guidelines](contributing.md)).
-- **External links** should open in a new tab and should be relevant to Grimwald, such as linking to resources or tools directly used on the server. 
+- **External links** should be relevant to Grimwald, such as linking to resources or tools directly used on the server. 
 - Use **clear link text** that describes the destination (e.g., “Click here for the economy setup guide” instead of “click here”).
+
+---
 
 ## **3. Content Guidelines**  
 
@@ -65,6 +72,8 @@ This document outlines the **standards and guidelines** for creating and maintai
 - All major changes or new sections should be **reviewed by staff** before being finalized.
 - Encourage players to **provide feedback** on documents that are unclear or incomplete.
 
+---
+
 # **4. Updating the Knowledge Base**
 
 ## **Review Process**  
@@ -74,11 +83,15 @@ This document outlines the **standards and guidelines** for creating and maintai
 ## **Version Control**  
 - Maintain **version control** for all documents.
 
+---
+
 # **5. Accessibility** 
 
 ## **Language & Localization**  
 - Consider the **global nature** of Grimwald and avoid region-specific language or terms.
 - All docs should be written in American English (E.g. localization instead of localisation, color instead of colour.)
+
+---
 
 # **6. AI**
 

@@ -2,11 +2,15 @@
 
 We welcome contributions from everyone in the **Grimwald SMP** community! Whether you’re helping improve documentation, fixing typos, or adding new content, we appreciate your efforts. Please follow these guidelines to ensure consistency and quality across the knowledge base.
 
+---
+
 # **1. General Guidelines**
 
 - All contributions should align with the **Grimwald Knowledge Base** standards. Review the [Documentation Standards](standards.md) before contributing.
 - Contributions must be **respectful** and **objective**, adhering to the community’s values.
 - **Do not mention** players or staff members by their **real or online names** in any documentation or contributions.
+
+---
 
 # **2. Using GitHub for Contributions**
 
@@ -39,6 +43,8 @@ Once your changes are complete:
 
 Admins will review the PR, and after any necessary revisions, your changes will be merged into the main repository.
 
+---
+
 # **3. Working with MkDocs**
 
 The Grimwald Knowledge Base is built using **MkDocs**. To view and preview your changes locally, follow these steps:
@@ -68,7 +74,9 @@ If there are merge conflicts:
 - Make sure you pull the latest changes from the main repostitory: `git pull origin main`
 - Resolve the conflicts and push the changes.
 
-# **5. Additional Notes**
+---
+
+# **4. Additional Notes**
 
 - Please **refrain from editing** brand-related documents or documents relating to Grimwald's core identity and values unless you have been explicitly told to by an admin, If you are an admin you should make sure the owner(s) are ok with this change. This applies to major changes and not fixes such as correcting typos.
 - Keep your pull requests small and focused on a single task or feature. This makes them easier to review and less prone to errors.
