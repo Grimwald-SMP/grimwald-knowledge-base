@@ -8,8 +8,8 @@ a new player, a seasoned veteran, or a staff member—can quickly find the infor
 The Grimwald Knowledge Base is designed to:
 
 - Provide clear, structured guidance on server rules, community standards, and staff responsibilities.
+- Provide information to players about how everything works on the server, from our shops and economy, to seasons and events and the quality of life plugins we run the server with.
 - Offer detailed technical documentation for server maintenance, plugin management, website updates, and other administrative tasks.
-- Maintain a record of past decisions, policies, and updates, ensuring that new admins...
 - Act as a living document, regularly updated by staff and community members to reflect the latest developments in Grimwald SMP.
 
 ## Keeping the Docs updated
