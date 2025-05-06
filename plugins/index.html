@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>📢 Advertising Guide - Grimwald Knowledge Base</title>
+        <title>🛠️ Plugins - Grimwald Knowledge Base</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🛠️ Server Management</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🛠️ Server Management</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -93,7 +93,7 @@
 </li>
                                     
 <li>
-    <a href="../plugins/" class="dropdown-item">🛠️ Plugins</a>
+    <a href="./" class="dropdown-item active" aria-current="page">🛠️ Plugins</a>
 </li>
                                     
 <li>
@@ -164,6 +164,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../payments/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../datapacks/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -182,39 +192,60 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#advertising-guide" class="nav-link">📢 Advertising Guide</a>
+            <li class="nav-item" data-bs-level="1"><a href="#plugins" class="nav-link">🛠️ Plugins</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#1-posting-ads" class="nav-link">1. Posting Ads</a>
+            <li class="nav-item" data-bs-level="1"><a href="#1-plugins-list" class="nav-link">1. Plugins List</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#where-to-advertise" class="nav-link">Where to Advertise</a>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#2-installation" class="nav-link">2. Installation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#3-configuration" class="nav-link">3. Configuration</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#welcome-message" class="nav-link">Welcome Message</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#better-multiplayer-sleep" class="nav-link">Better Multiplayer Sleep</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#supervanish" class="nav-link">SuperVanish</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#discordsrv" class="nav-link">DiscordSRV</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#dynmap" class="nav-link">Dynmap</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#simplevoicechat" class="nav-link">SimpleVoiceChat</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#plan" class="nav-link">Plan</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#2-when-to-advertise" class="nav-link">2. When To Advertise</a>
+            <li class="nav-item" data-bs-level="1"><a href="#3-luckperms" class="nav-link">3. Luckperms</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#3-reddit-advertisement-templates" class="nav-link">3. Reddit Advertisement Templates</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#post-title" class="nav-link">Post Title</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#post-body" class="nav-link">Post Body</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#4-special-cases-when-posting" class="nav-link">4. Special Cases When Posting</a>
+            <li class="nav-item" data-bs-level="1"><a href="#4-pre-generating-the-world" class="nav-link">4. Pre-Generating The World</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -223,68 +254,131 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="advertising-guide">📢 <strong>Advertising Guide</strong></h1>
-<p>This document provides a <strong>guide for advertising the Grimwald server</strong> to attract new members. Follow these standards to maintain a consistent and effective presence across platforms.</p>
+<h1 id="plugins">🛠️ <strong>Plugins</strong></h1>
+<p>This document provides a clear and concise guide for setting up the plugins we use on the server.</p>
 <hr />
-<h1 id="1-posting-ads"><strong>1. Posting Ads</strong></h1>
-<h2 id="where-to-advertise"><strong>Where to Advertise</strong></h2>
+<h1 id="1-plugins-list"><strong>1. Plugins List</strong></h1>
 <ul>
-<li>Primary advertising platforms:</li>
-<li><a href="https://www.reddit.com/r/MinecraftBuddies/">r/MinecraftBuddies</a> (<strong>Java-Hosting</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/mcservers/">r/mcservers</a> (<strong>SMP</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/MinecraftServer/">r/MinecraftServer</a> (<strong>Advertising</strong> flair)</li>
-<li>You are encouraged to advertise in other relevant communities as well, as long as they permit server advertisements and align with Grimwald's standards.</li>
-<li>You are also free to expand and advertise on other platforms too but we have not done this in the past.</li>
+<li>
+<p>General:</p>
+<ul>
+<li><a href="https://modrinth.com/plugin/discordsrv">DiscordSRV</a> - Minecraft &lt;-&gt; Discord chat.</li>
+<li><a href="https://modrinth.com/plugin/dynmap">Dynmap</a> - World map.</li>
+<li><a href="https://modrinth.com/plugin/chunky">Chunky</a> - Chunk pre-generation for world map.</li>
+<li><a href="https://modrinth.com/plugin/hexnicks">HexNicks</a> - Set different colored nicknames with /nick or /nick other, E.g. <code>/nick &lt;#ffffff&gt;Steve</code>.</li>
+<li><a href="https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-16-1-21-5.62325/">Gsit</a> - Ability to sit anywhere.</li>
+<li><a href="https://modrinth.com/plugin/simple-voice-chat">SimpleVoicechat</a> - Proximity chat.</li>
+<li><a href="https://modrinth.com/plugin/simple-welcome-message">WelcomeMessage</a> - Welcome Message that gets sent when someone joins the game.</li>
+<li><a href="https://modrinth.com/plugin/better-multiplayer-sleep">BetterMultiplayerSleep</a> - Allows players to toggling no sleeping for the night with <code>/no-sleep</code>.</li>
+<li><a href="https://modrinth.com/plugin/portal-link-helper">PortalLinkHelper</a> - Immediately sends the link coordinates for a portal once it has been constructed.</li>
+</ul>
+</li>
+<li>
+<p>Admin:</p>
+<ul>
+<li><a href="https://modrinth.com/plugin/luckperms">Luckperms</a> - Allows admins to set up permissions groups to allow or deny certain people access to certain commands.</li>
+<li><a href="https://modrinth.com/plugin/coreprotect">Coreprotect</a> - Logging and rollbacks.</li>
+<li><a href="https://www.spigotmc.org/resources/supervanish-be-invisible.1331/">SuperVanish</a> - Allows admins to become invisble.</li>
+<li><a href="https://www.spigotmc.org/resources/protocollib.1997/">ProtocolLib</a> - Required for SuperVanish to work correctly .</li>
+<li><a href="https://dev.bukkit.org/projects/openinv">OpenInv</a> - Allows admins to check inventories or enderchests.</li>
+<li><a href="https://modrinth.com/plugin/plan">Plan</a> - Gathers loads of stats about the server, which can be helpful for admins.</li>
+</ul>
+</li>
 </ul>
 <hr />
-<h1 id="2-when-to-advertise"><strong>2. When To Advertise</strong></h1>
-<ul>
-<li>You should post ads when the server activity is low.</li>
-<li>Ads can be posted mid season or in preperation for the beginning of a new season.</li>
-<li>Grimwald is designed to be a small server, adding people is fine when needed but don't post ads for new people excessively.</li>
-</ul>
+<h1 id="2-installation"><strong>2. Installation</strong></h1>
+<ol>
+<li>Download all of the plugins above.</li>
+<li>Navigate to PebbleHost File Manager/plugins</li>
+<li>Place all of the downloaded plugin jars in this folder.</li>
+<li>
+<p>Restart the server.</p>
+</li>
+<li>
+<p>Once the server restarts the plugins will be installed, but some will need configured.</p>
+</li>
+<li>If the server does not start, check console to see if there any any errors, Plugins usually work across versions but for some plugins you may need a specific version.</li>
+<li>After each edit, press the green "Save Content" button.</li>
+</ol>
 <hr />
-<h1 id="3-reddit-advertisement-templates"><strong>3. Reddit Advertisement Templates</strong></h1>
-<h2 id="post-title"><strong>Post Title</strong></h2>
-<pre><code>Grimwald SMP [SMP]{java}{1.21}{Semi-Vanilla}{16+}{whitelist}{discord}
-</code></pre>
+<h1 id="3-configuration"><strong>3. Configuration</strong></h1>
 <ul>
-<li>Replace <code>1.21</code> with the <strong>current server version</strong>.</li>
-<li>Replace <code>Semi-Vanilla</code> with <code>Modded</code> if advertising a modded season.</li>
-<li>Adjust the <strong>age limit</strong> if it changes.</li>
-<li><strong>Note:</strong> r/mcservers strictly enforces this title format. You can be more creative with titles on other subreddits if permitted.</li>
+<li>Some plugins have no configuration so will not be listed here.</li>
+<li>Only the config options we use will be documented, any other options you will have to look into yourself.</li>
 </ul>
-<h2 id="post-body"><strong>Post Body</strong></h2>
-<pre><code>About Us
-We are a small, mainly vanilla server with quality of life datapacks from Vanilla Tweaks and essential plugins to protect against hackers and griefers. Anyone is welcome as long as they follow the rules.
-
-Features
-- Proximity voice chat (optional)
-- Vanilla Tweaks datapacks for quality of life improvements
-- CoreProtect instead of land claims to protect the server (allows world rollbacks and bans for griefers)
-- Hard difficulty
-- Democracy — major server decisions are voted on by the players
-- Updates to new Minecraft versions soon after release
-- Vanilla-like configs — TNT, rail, and carpet duping allowed; bedrock breaking enabled
-- Friendly and active community
-- Minigames and events
-- Group projects
-- No pay-to-win elements or vote rewards
-
-Apply Here:
-https://forms.gle/uKNZd6JzVjRjQK5H9
-</code></pre>
+<h2 id="welcome-message"><strong>Welcome Message</strong></h2>
 <ul>
-<li><strong>Update details</strong> as needed depending on the current season.</li>
-<li>You are encouraged to <strong>expand or personalize</strong> the description if appropriate while maintaining a professional and inviting tone.</li>
+<li>Open plugins/welcomeMessage/config.yml.</li>
+<li>Replace whatever is inside the quotations with <code>&amp;6Welcome to Grimwald SMP Season 21 %player%</code> changing the season number to the correct one.</li>
 </ul>
+<h2 id="better-multiplayer-sleep"><strong>Better Multiplayer Sleep</strong></h2>
+<ul>
+<li>Open plugins/BetterMultiplayerSleep/config.yml.</li>
+<li>You can change the default sleep percentage to match whatever you want it to be in game. Usually we stay with 0 though so only one person needs to sleep to skip to day.</li>
+</ul>
+<h2 id="supervanish"><strong>SuperVanish</strong></h2>
+<ul>
+<li>Open plugins/SuperVanish/config.yml.</li>
+<li>Find the "Fly" section.</li>
+<li>In this section make sure "Enable" is set to <code>false</code> and "DisableOnReappear" is set to <code>true</code>.</li>
+</ul>
+<h2 id="discordsrv"><strong>DiscordSRV</strong></h2>
+<ul>
+<li>Open plugins/DiscordSRV/config.yml.</li>
+<li>Add the Discord Bot Token in the "BotToken" field.</li>
+<li>Go onto discord and enable developer mode you do not have it enabled already. This allows you to copy channel IDs.</li>
+<li>In the "Channels: {"global" : ""}" insert the ID of channel you want to use in the quotations. Usually <code>849310724844027941</code>.</li>
+<li>In the "DiscordInviteLink" insert the permanent link in the quotations. You can find this on discord.</li>
+</ul>
+<h2 id="dynmap"><strong>Dynmap</strong></h2>
+<ul>
+<li>Open plugins/dynmap/configuration.txt.</li>
+<li>Change the "deftemplatesuffix" to <code>vlowres</code>.</li>
+<li>Change "allowwebchat" and "allowchat" to <code>false</code>.</li>
+<li>Go into the "Additional Ports" tab on Pebblehost, Click add port. Leave a note stating what this port is for. Then note down the port number.</li>
+<li>Back in the config, change "webserver-port" to the value of the port you just created, usually a four digit number.</li>
+<li>The link can be found at <code>http://ip:port</code> where ip is the servers IP and port is the new port you just created and set in the webserver-port option.</li>
+</ul>
+<h2 id="simplevoicechat"><strong>SimpleVoiceChat</strong></h2>
+<ul>
+<li>Go into the "Additional Ports" tab on Pebblehost, Click add port. Leave a note stating what this port is for. Then note down the port number.</li>
+<li>Open plugins/voicechat/voicechat-server.properties.</li>
+<li>Change "port" to the value of the port you just created, usually a four digit number.</li>
+</ul>
+<h2 id="plan"><strong>Plan</strong></h2>
+<ul>
+<li>Go into the "Additional Ports" tab on Pebblehost, Click add port. Leave a note stating what this port is for. Then note down the port number.</li>
+<li>Open plugins/Plan/config.yml.</li>
+<li>Find the "Webserver" section.</li>
+<li>In this section change "Port" to the value of the port you just created, usually a four digit number.</li>
+<li>Go into the server.properties and ensure the "server-ip" is set to the servers-ip (Without the port).</li>
+<li>Optionally you can enable location tracking which tells you which countries your players are from, To do this:<ul>
+<li>Read the <a href="https://www.maxmind.com/en/geolite2/eula">Geolite2 Eula</a></li>
+<li>In the conig, find the "Data_gathering" section.</li>
+<li>Change "Geolocations" to <code>true</code></li>
+<li>Change "Accept_Geolite2_EULA" to true, if you have read and agreed to the terms.</li>
+</ul>
+</li>
+<li>At the moment anyone with the link can access this site, you could secure it if you wanted to but this is more technical. <a href="https://github.com/plan-player-analytics/Plan/wiki/SSL-Certificate-%28HTTPS%29-Set-Up">Find out more</a></li>
+</ul>
+<p>Now that all the plugins are configured restart the server again and the configuration should be applied.</p>
 <hr />
-<h1 id="4-special-cases-when-posting"><strong>4. Special Cases When Posting</strong></h1>
+<h1 id="3-luckperms"><strong>3. Luckperms</strong></h1>
 <ul>
-<li>Some subreddits (e.g., <strong>r/MinecraftBuddies</strong>) <strong>do not allow links</strong> in posts.</li>
-<li>In such cases, replace the application link with one of the following alternatives:</li>
-<li><em>"Not allowed to post links here, check my other recent posts for the application link."</em> (if you have posted elsewhere recently)</li>
-<li><em>"Not allowed to post links here, check my bio for the application link."</em> (if you have the link in your Reddit profile bio)</li>
+<li>Although the server is set up luckperms permission groups will need to be added.</li>
+<li>By default luckperms will block most plugin permissions from everyone, You should add some default permissions to the everyone group and create new groups for admin permissions.</li>
+<li>The easiest way to do this is with the editor, run `/lp-editor' from in game, which will open a web editor view.</li>
+<li>Make sure you give everyone permissions to speak and listen with voicechat.</li>
+<li>There are a lot of things you can do with luckperms so rather than describe all of them here you can read the <a href="https://luckperms.net/wiki/Web-Editor">Wiki</a>.</li>
+</ul>
+<h1 id="4-pre-generating-the-world"><strong>4. Pre-Generating The World</strong></h1>
+<ul>
+<li>Chunky can be used to pre-generate chunks. (Quickly load and unload each chunk within a certain area).</li>
+<li>This is useful for dynmap, which cannot render chunks until they have been loaded at least once.</li>
+<li>Run <code>/chunky radius &lt;radius&gt;</code> or <code>/chunky corners</code> to set the area.</li>
+<li>Then run <code>/chunky start</code> to start the pre-generation task.</li>
+<li>Once this is complete start the dynmap render with <code>/dynmap fullrender</code>.</li>
+<li>Warning, the chunky pre-generation task and the dynmap full render task can take a while and whilst they are running server-performance may be significantly worse. You may wish to run these before opening the world up to players or not run them at all and let dynmap render areas as they are explored.</li>
 </ul></div>
             </div>
         </div>

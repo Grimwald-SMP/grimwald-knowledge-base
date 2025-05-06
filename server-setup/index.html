@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>📢 Advertising Guide - Grimwald Knowledge Base</title>
+        <title>🛠️ Setting Up - Grimwald Knowledge Base</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -81,11 +81,11 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🛠️ Server Management</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🛠️ Server Management</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../server-setup/" class="dropdown-item">🛠️ Setting Up</a>
+    <a href="./" class="dropdown-item active" aria-current="page">🛠️ Setting Up</a>
 </li>
                                     
 <li>
@@ -164,6 +164,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../commands/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../payments/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -182,39 +192,65 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#advertising-guide" class="nav-link">📢 Advertising Guide</a>
+            <li class="nav-item" data-bs-level="1"><a href="#server-setup" class="nav-link">🛠️ Server Setup</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#1-posting-ads" class="nav-link">1. Posting Ads</a>
+            <li class="nav-item" data-bs-level="1"><a href="#1-preparing-the-server-environment" class="nav-link">1. Preparing the Server Environment</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#where-to-advertise" class="nav-link">Where to Advertise</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#2-when-to-advertise" class="nav-link">2. When To Advertise</a>
+            <li class="nav-item" data-bs-level="2"><a href="#hosting-provider" class="nav-link">Hosting Provider</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#3-reddit-advertisement-templates" class="nav-link">3. Reddit Advertisement Templates</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#post-title" class="nav-link">Post Title</a>
+            <li class="nav-item" data-bs-level="2"><a href="#loader-config" class="nav-link">Loader Config</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#post-body" class="nav-link">Post Body</a>
+            <li class="nav-item" data-bs-level="2"><a href="#selecting-the-server-type" class="nav-link">Selecting the Server Type</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#custom-jar" class="nav-link">Custom Jar</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#4-special-cases-when-posting" class="nav-link">4. Special Cases When Posting</a>
+            <li class="nav-item" data-bs-level="1"><a href="#2-configuring-server-properties" class="nav-link">2. Configuring Server Properties</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#3-server-management" class="nav-link">3. Server Management</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#worlds" class="nav-link">Worlds</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#paper-settings" class="nav-link">Paper Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#4-whitelist-and-operators" class="nav-link">4. Whitelist and Operators</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#adding-operators-owner" class="nav-link">Adding Operators (Owner)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#5-plugins-and-datapacks-installation" class="nav-link">5. Plugins and Datapacks Installation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#6-scheduled-tasks" class="nav-link">6. Scheduled Tasks</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -223,68 +259,116 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="advertising-guide">📢 <strong>Advertising Guide</strong></h1>
-<p>This document provides a <strong>guide for advertising the Grimwald server</strong> to attract new members. Follow these standards to maintain a consistent and effective presence across platforms.</p>
+<h1 id="server-setup">🛠️ <strong>Server Setup</strong></h1>
+<p>This document provides a clear and concise guide for setting up a Minecraft server. It is written specifically for Grimwald staff but is applicable to anyone using a Minecraft hosting services.</p>
 <hr />
-<h1 id="1-posting-ads"><strong>1. Posting Ads</strong></h1>
-<h2 id="where-to-advertise"><strong>Where to Advertise</strong></h2>
+<h1 id="1-preparing-the-server-environment"><strong>1. Preparing the Server Environment</strong></h1>
+<h2 id="hosting-provider"><strong>Hosting Provider</strong></h2>
 <ul>
-<li>Primary advertising platforms:</li>
-<li><a href="https://www.reddit.com/r/MinecraftBuddies/">r/MinecraftBuddies</a> (<strong>Java-Hosting</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/mcservers/">r/mcservers</a> (<strong>SMP</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/MinecraftServer/">r/MinecraftServer</a> (<strong>Advertising</strong> flair)</li>
-<li>You are encouraged to advertise in other relevant communities as well, as long as they permit server advertisements and align with Grimwald's standards.</li>
-<li>You are also free to expand and advertise on other platforms too but we have not done this in the past.</li>
+<li>We use <strong>Pebblehost</strong> for hosting the Grimwald server.</li>
+<li>Login to the <a href="https://panel.pebblehost.com/">Pebblehost Panel</a></li>
+<li>Ensure you are managing the correct server instance.</li>
+</ul>
+<h2 id="loader-config"><strong>Loader Config</strong></h2>
+<ul>
+<li>Navigate to PebbleHost Loader</li>
+<li>Enable Auto Reboot on Crash</li>
+<li>Ensure Java Version is set to automatically detect.</li>
+<li>If you face any issues related to java version later on you may need to set this to the correct type for your server's jar.</li>
+</ul>
+<h2 id="selecting-the-server-type"><strong>Selecting the Server Type</strong></h2>
+<ul>
+<li>Turn off the server.</li>
+<li>Navigate to the <strong>"Jar Manager"</strong> section in the panel.</li>
+<li>Choose the latest stable version of <strong>Paper</strong> that matches the desired Minecraft version.</li>
+<li>If a new version has recently came out, check the <a href="https://papermc.io/downloads/paper">PaperMC Website</a> and ensure there is a stable build for the version you want to use.</li>
+<li><strong>Experimental versions</strong> may appear on the server hosting site, but it is up to you if you want to use those or wait for a full release version. <strong>Experimental Builds may have bugs!</strong></li>
+<li>Click <strong>Install Jar</strong> to apply the changes.</li>
+<li>Restart the server to install the server software setup.</li>
+</ul>
+<h2 id="custom-jar"><strong>Custom Jar</strong></h2>
+<ul>
+<li>If you want a different jar other than paper you may be able to follow a similar process to above, just selecting the jar you want.</li>
+<li>If the jar you want is not listed you will have to do it yourself.</li>
+<li>Download the Jar you want from the official website of that server software, E.g. Fabric, Forge.</li>
+<li>You made or may not need to download the official vanilla <strong>server</strong> minecraft jar for the same game version.</li>
+<li>Zip the jar file(s) up and upload them to the server.</li>
+<li>Right click the zipped folder and choose unarchive. You can now delete the zipped folder.</li>
+<li>Navigate to settings, and in the section that says jarfile, change the jarfile name to the name of the custom jar you uploaded.</li>
+<li>Restart the server to install the server software setup.</li>
 </ul>
 <hr />
-<h1 id="2-when-to-advertise"><strong>2. When To Advertise</strong></h1>
+<h1 id="2-configuring-server-properties"><strong>2. Configuring Server Properties</strong></h1>
 <ul>
-<li>You should post ads when the server activity is low.</li>
-<li>Ads can be posted mid season or in preperation for the beginning of a new season.</li>
-<li>Grimwald is designed to be a small server, adding people is fine when needed but don't post ads for new people excessively.</li>
+<li>Open the **"File Manager" and then "server.properties" file.</li>
+<li>Ensure these values are set:</li>
+<li><code>difficulty=hard</code></li>
+<li><code>gamemode=survival</code></li>
+<li><code>motd=Grimwald SMP S&lt;Season Number&gt;</code></li>
+<li><code>online-mode=true</code> //Disabling this is allows anyone to join the server bypassing authentication, never disable it.</li>
+<li><code>pvp=true</code></li>
+<li><code>=0</code> //This makes it so there is no spawn protection, you may want to protect a little area depending on what is at spawn.</li>
+<li>You can optionally change other values but ensure you know exactly what they are doing and what effect they will have.</li>
+<li>The only other ones we ever tend to change are spawn protection, and those related to server resource packs.</li>
+<li>Save and restart the server after making changes.</li>
+<li>If you want to use a specific seed you can do so in the <code>seed=</code> part of the server.properties.</li>
 </ul>
 <hr />
-<h1 id="3-reddit-advertisement-templates"><strong>3. Reddit Advertisement Templates</strong></h1>
-<h2 id="post-title"><strong>Post Title</strong></h2>
-<pre><code>Grimwald SMP [SMP]{java}{1.21}{Semi-Vanilla}{16+}{whitelist}{discord}
+<h1 id="3-server-management"><strong>3. Server Management</strong></h1>
+<h2 id="worlds"><strong>Worlds</strong></h2>
+<ul>
+<li>If using a random seed or specific seed then the server will generate this for you on restart</li>
+<li>If starting with a pre-generated world:</li>
+<li>Ensure your worlds are named as <code>world</code>, <code>world_nether</code>, and <code>world_the_end</code> for paper. If using fabric you will need store the nether and end inside the world folder as DIM-1 and DIM1 respectively.</li>
+<li>Zip the world folder(s), upload the zip and then right click and unarchive. You can now delete the zipped folder.</li>
+<li>Ensure the <strong>level-name</strong> in <code>server.properties</code> matches your main world folder name.</li>
+</ul>
+<h2 id="paper-settings"><strong>Paper Settings</strong></h2>
+<ul>
+<li>Paper will generate the <code>paper.yml</code>, <code>spigot.yml</code>, and <code>bukkit.yml</code> files on first run.</li>
+<li>
+<p>Paper patches some things that many players consider features, you can enable some of these again via these config files.</p>
+</li>
+<li>
+<p>Once you have these settings as you want them and the world in place (if using a custom one), restart the server.</p>
+</li>
+</ul>
+<hr />
+<h1 id="4-whitelist-and-operators"><strong>4. Whitelist and Operators</strong></h1>
+<ul>
+<li>Ensure <code>white-list=true</code> in <code>server.properties</code>.</li>
+<li>Add approved players to the whitelist using either the console or by uploading whitelist.json file.</li>
+<li>Example command:</li>
+</ul>
+<pre><code>whitelist add PlayerName
+</code></pre>
+<h2 id="adding-operators-owner"><strong>Adding Operators (Owner)</strong></h2>
+<ul>
+<li>Use the following command in the console:</li>
+</ul>
+<pre><code>op PlayerName
 </code></pre>
 <ul>
-<li>Replace <code>1.21</code> with the <strong>current server version</strong>.</li>
-<li>Replace <code>Semi-Vanilla</code> with <code>Modded</code> if advertising a modded season.</li>
-<li>Adjust the <strong>age limit</strong> if it changes.</li>
-<li><strong>Note:</strong> r/mcservers strictly enforces this title format. You can be more creative with titles on other subreddits if permitted.</li>
-</ul>
-<h2 id="post-body"><strong>Post Body</strong></h2>
-<pre><code>About Us
-We are a small, mainly vanilla server with quality of life datapacks from Vanilla Tweaks and essential plugins to protect against hackers and griefers. Anyone is welcome as long as they follow the rules.
-
-Features
-- Proximity voice chat (optional)
-- Vanilla Tweaks datapacks for quality of life improvements
-- CoreProtect instead of land claims to protect the server (allows world rollbacks and bans for griefers)
-- Hard difficulty
-- Democracy — major server decisions are voted on by the players
-- Updates to new Minecraft versions soon after release
-- Vanilla-like configs — TNT, rail, and carpet duping allowed; bedrock breaking enabled
-- Friendly and active community
-- Minigames and events
-- Group projects
-- No pay-to-win elements or vote rewards
-
-Apply Here:
-https://forms.gle/uKNZd6JzVjRjQK5H9
-</code></pre>
-<ul>
-<li><strong>Update details</strong> as needed depending on the current season.</li>
-<li>You are encouraged to <strong>expand or personalize</strong> the description if appropriate while maintaining a professional and inviting tone.</li>
+<li>Operators have full command access, so ideally only one owner should be granted this status.</li>
 </ul>
 <hr />
-<h1 id="4-special-cases-when-posting"><strong>4. Special Cases When Posting</strong></h1>
+<h1 id="5-plugins-and-datapacks-installation"><strong>5. Plugins and Datapacks Installation</strong></h1>
 <ul>
-<li>Some subreddits (e.g., <strong>r/MinecraftBuddies</strong>) <strong>do not allow links</strong> in posts.</li>
-<li>In such cases, replace the application link with one of the following alternatives:</li>
-<li><em>"Not allowed to post links here, check my other recent posts for the application link."</em> (if you have posted elsewhere recently)</li>
-<li><em>"Not allowed to post links here, check my bio for the application link."</em> (if you have the link in your Reddit profile bio)</li>
+<li>For instructions on installing and configuring plugins, <a href="../plugins/">see the Plugins Setup guide</a>.</li>
+<li>For instructions on installing datapacks, <a href="../datapacks/">see the Datapacks guide</a>.</li>
+</ul>
+<hr />
+<h1 id="6-scheduled-tasks"><strong>6. Scheduled Tasks</strong></h1>
+<ul>
+<li>You may want to set up scheduled tasks for server restarts, This helps with performance.</li>
+<li>On the PebbleHost Panel, Go to "Scheduled Tasks" and press "Create Schedule"</li>
+<li>Call it "Restart" and you can just use the AI feature to generate the schedule which will format it correctly. E.g. "Everyday at 11.30pm" (Aim for half an hour before you want the reset)</li>
+<li>Open this schedule and add the following tasks:</li>
+<li>Send Command, <code>say "Server restarting in 30 minutes</code>, Continues on failure.</li>
+<li>Send Command, <code>say "Server restarting in 15 minutes</code>, Continues on failure, 900s later.</li>
+<li>Send Command, <code>say "Server restarting in 5 minutes</code>, Continues on failure, 600s later.</li>
+<li>Send Command, <code>say "Server restarting in 1 minutes</code>, Continues on failure, 240s later.</li>
+<li>Send Power Action, <code>restart</code>, 60s later.</li>
 </ul></div>
             </div>
         </div>

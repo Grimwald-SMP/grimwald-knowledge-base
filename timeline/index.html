@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>📢 Advertising Guide - Grimwald Knowledge Base</title>
+        <title>🌐 Timeline - Grimwald Knowledge Base</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -106,7 +106,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🌐 Website</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🌐 Website</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -114,7 +114,7 @@
 </li>
                                     
 <li>
-    <a href="../timeline/" class="dropdown-item">🌐 Timeline</a>
+    <a href="./" class="dropdown-item active" aria-current="page">🌐 Timeline</a>
 </li>
                                     
 <li>
@@ -164,6 +164,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../preparing-world-downloads/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../joining/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -182,39 +192,43 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#advertising-guide" class="nav-link">📢 Advertising Guide</a>
+            <li class="nav-item" data-bs-level="1"><a href="#updating-the-timeline" class="nav-link">🌐 Updating The Timeline</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#1-posting-ads" class="nav-link">1. Posting Ads</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#where-to-advertise" class="nav-link">Where to Advertise</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#2-when-to-advertise" class="nav-link">2. When To Advertise</a>
+            <li class="nav-item" data-bs-level="1"><a href="#1-media-guidelines" class="nav-link">1. Media Guidelines</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#3-reddit-advertisement-templates" class="nav-link">3. Reddit Advertisement Templates</a>
+            <li class="nav-item" data-bs-level="1"><a href="#2-creating-a-new-season" class="nav-link">2. Creating a New Season</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#post-title" class="nav-link">Post Title</a>
+            <li class="nav-item" data-bs-level="2"><a href="#duplicate-the-last-season-component" class="nav-link">Duplicate the Last Season Component</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#post-body" class="nav-link">Post Body</a>
+            <li class="nav-item" data-bs-level="2"><a href="#add-background-styles" class="nav-link">Add Background Styles</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#add-the-component-to-the-timeline-page" class="nav-link">Add the Component to the Timeline Page</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#4-special-cases-when-posting" class="nav-link">4. Special Cases When Posting</a>
+            <li class="nav-item" data-bs-level="1"><a href="#3-updating-timeline-entries" class="nav-link">3. Updating Timeline Entries</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#guidelines-for-entries" class="nav-link">Guidelines for Entries</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#4-testing" class="nav-link">4. Testing</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -223,69 +237,109 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="advertising-guide">📢 <strong>Advertising Guide</strong></h1>
-<p>This document provides a <strong>guide for advertising the Grimwald server</strong> to attract new members. Follow these standards to maintain a consistent and effective presence across platforms.</p>
+<h1 id="updating-the-timeline">🌐 <strong>Updating The Timeline</strong></h1>
+<p>This guide explains how to <strong>add and manage seasons</strong> on the Grimwald Timeline page. It covers how to create season components, set up background images, and add new entries.</p>
 <hr />
-<h1 id="1-posting-ads"><strong>1. Posting Ads</strong></h1>
-<h2 id="where-to-advertise"><strong>Where to Advertise</strong></h2>
+<h1 id="1-media-guidelines"><strong>1. Media Guidelines</strong></h1>
 <ul>
-<li>Primary advertising platforms:</li>
-<li><a href="https://www.reddit.com/r/MinecraftBuddies/">r/MinecraftBuddies</a> (<strong>Java-Hosting</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/mcservers/">r/mcservers</a> (<strong>SMP</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/MinecraftServer/">r/MinecraftServer</a> (<strong>Advertising</strong> flair)</li>
-<li>You are encouraged to advertise in other relevant communities as well, as long as they permit server advertisements and align with Grimwald's standards.</li>
-<li>You are also free to expand and advertise on other platforms too but we have not done this in the past.</li>
+<li><strong>Images</strong> should be <strong>1920x1080 resolution</strong>.</li>
+<li>Do <strong>not use shaders or resource packs</strong> in images.</li>
+<li><strong>Videos</strong> are allowed and can use shaders or packs.</li>
+<li>For <strong>modded seasons</strong>, a modlist can be included:</li>
+<li>Export the profile from <strong>CurseForge</strong>.</li>
+<li>Place the html file in the <code>public/modlists</code> folder.</li>
+<li>Name it accordingly (e.g., <code>S21Mods.html</code>).</li>
 </ul>
 <hr />
-<h1 id="2-when-to-advertise"><strong>2. When To Advertise</strong></h1>
-<ul>
-<li>You should post ads when the server activity is low.</li>
-<li>Ads can be posted mid season or in preperation for the beginning of a new season.</li>
-<li>Grimwald is designed to be a small server, adding people is fine when needed but don't post ads for new people excessively.</li>
-</ul>
-<hr />
-<h1 id="3-reddit-advertisement-templates"><strong>3. Reddit Advertisement Templates</strong></h1>
-<h2 id="post-title"><strong>Post Title</strong></h2>
-<pre><code>Grimwald SMP [SMP]{java}{1.21}{Semi-Vanilla}{16+}{whitelist}{discord}
+<h1 id="2-creating-a-new-season"><strong>2. Creating a New Season</strong></h1>
+<h2 id="duplicate-the-last-season-component"><strong>Duplicate the Last Season Component</strong></h2>
+<ol>
+<li>Navigate to <code>app/components/seasons</code></li>
+<li>Duplicate the most recent file (e.g., <code>season20.tsx</code>).</li>
+<li>
+<p>Rename it to match the new season (e.g., <code>season21.tsx</code>).</p>
+</li>
+<li>
+<p>Open the file and change the following:</p>
+</li>
+</ol>
+<pre><code class="language-tsx">export default function Season20() {
+  return (
+    &lt;div className=&quot;parallaxS20&quot;&gt;
+      &lt;div id=&quot;S20&quot;&gt;&lt;/div&gt;
 </code></pre>
 <ul>
-<li>Replace <code>1.21</code> with the <strong>current server version</strong>.</li>
-<li>Replace <code>Semi-Vanilla</code> with <code>Modded</code> if advertising a modded season.</li>
-<li>Adjust the <strong>age limit</strong> if it changes.</li>
-<li><strong>Note:</strong> r/mcservers strictly enforces this title format. You can be more creative with titles on other subreddits if permitted.</li>
+<li>Update to (Using the correct season number):</li>
 </ul>
-<h2 id="post-body"><strong>Post Body</strong></h2>
-<pre><code>About Us
-We are a small, mainly vanilla server with quality of life datapacks from Vanilla Tweaks and essential plugins to protect against hackers and griefers. Anyone is welcome as long as they follow the rules.
-
-Features
-- Proximity voice chat (optional)
-- Vanilla Tweaks datapacks for quality of life improvements
-- CoreProtect instead of land claims to protect the server (allows world rollbacks and bans for griefers)
-- Hard difficulty
-- Democracy — major server decisions are voted on by the players
-- Updates to new Minecraft versions soon after release
-- Vanilla-like configs — TNT, rail, and carpet duping allowed; bedrock breaking enabled
-- Friendly and active community
-- Minigames and events
-- Group projects
-- No pay-to-win elements or vote rewards
-
-Apply Here:
-https://forms.gle/uKNZd6JzVjRjQK5H9
+<pre><code class="language-tsx">export default function Season21() {
+  return (
+    &lt;div className=&quot;parallaxS21&quot;&gt;
+      &lt;div id=&quot;S21&quot;&gt;&lt;/div&gt;
 </code></pre>
+<h2 id="add-background-styles"><strong>Add Background Styles</strong></h2>
+<ol>
+<li>Open <code>app/globals.css</code></li>
+<li>Scroll to the <strong>Parallax section</strong> near the bottom.</li>
+<li>Add the new class to the parallax list:</li>
+</ol>
+<pre><code class="language-css">.parallaxS20,
+.parallaxS21 {
+</code></pre>
+<ol>
+<li>Scroll down and add the corresponding style block (Using the correct season number):</li>
+</ol>
+<pre><code class="language-css">.parallaxS21 {
+  background-image: url(&quot;/S21Background.png&quot;);
+}
+</code></pre>
+<ol>
+<li>Place your background image in the <code>public/</code> folder. It must be named <code>S&lt;season number&gt;Background.png</code> (e.g., <code>S21Background.png</code>).</li>
+</ol>
+<h2 id="add-the-component-to-the-timeline-page"><strong>Add the Component to the Timeline Page</strong></h2>
+<ol>
+<li>Open <code>app/pages/timeline/page.tsx</code></li>
+<li>Add a new import:</li>
+</ol>
+<pre><code class="language-tsx">import Season21 from &quot;@/app/components/seasons/season21&quot;;
+</code></pre>
+<ol>
+<li>Add the component in the JSX:</li>
+</ol>
+<pre><code class="language-tsx">&lt;Season21 /&gt;
+</code></pre>
+<hr />
+<h1 id="3-updating-timeline-entries"><strong>3. Updating Timeline Entries</strong></h1>
+<ol>
+<li>Open your newly duplicated season file.</li>
+<li>Update the content inside the <code>&lt;Timeline /&gt;</code> components:</li>
+</ol>
+<pre><code class="language-tsx">&lt;Timeline
+  side=&quot;left&quot;
+  date=&quot;23rd October 2024&quot;
+  title=&quot;Season 20 Begins&quot;
+  description=&quot;...&quot;
+  imgSrc=&quot;/S20Ships.png&quot;
+  iframeSrc=&quot;/modlists/S20Mods.html&quot;
+/&gt;
+</code></pre>
+<h2 id="guidelines-for-entries"><strong>Guidelines for Entries</strong></h2>
 <ul>
-<li><strong>Update details</strong> as needed depending on the current season.</li>
-<li>You are encouraged to <strong>expand or personalize</strong> the description if appropriate while maintaining a professional and inviting tone.</li>
+<li><code>side</code>: Alternate between <code>left</code> and <code>right</code> on each entry check the previous entries last side and start with the opposite on your new entry.</li>
+<li><code>date</code>: Use clear, full dates (e.g., "23rd October 2024"). If unknown, use estimates like <em>"Early January 2025"</em>.</li>
+<li><code>title</code>: Must be present and descriptive.</li>
+<li><code>description</code>: Must be informative, avoid naming individuals or referencing real world drama. Something like someone getting banned for breaking the server rules would be ok to reference as long as names are left out, but something like a member getting removed after commiting a real world crime should not be on the timeline. <a href="../branding/">See Section 3 of the Branding Guideliens for more information on this</a>.</li>
+<li><code>imgSrc</code>: Path to an image in <code>public/</code> folder. Leave empty if not using.</li>
+<li><code>iframeSrc</code>: Path to video or modlist. Leave empty if not using.</li>
 </ul>
 <hr />
-<h1 id="4-special-cases-when-posting"><strong>4. Special Cases When Posting</strong></h1>
-<ul>
-<li>Some subreddits (e.g., <strong>r/MinecraftBuddies</strong>) <strong>do not allow links</strong> in posts.</li>
-<li>In such cases, replace the application link with one of the following alternatives:</li>
-<li><em>"Not allowed to post links here, check my other recent posts for the application link."</em> (if you have posted elsewhere recently)</li>
-<li><em>"Not allowed to post links here, check my bio for the application link."</em> (if you have the link in your Reddit profile bio)</li>
-</ul></div>
+<h1 id="4-testing"><strong>4. Testing</strong></h1>
+<p>Test your changes and ensure:
+- New component added to Timeline page.
+- Background image appears and the parallax effect works correctly.
+- Content entries added.
+- Content entries follow the guidelines.
+- Entries alternate sides (left/right).
+- Modlists/videos/images appear.</p></div>
             </div>
         </div>
 

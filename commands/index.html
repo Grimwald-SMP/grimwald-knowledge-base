@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>📢 Advertising Guide - Grimwald Knowledge Base</title>
+        <title>🛡️ Commands and Permissions - Grimwald Knowledge Base</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -68,7 +68,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🛡️ Moderation</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">🛡️ Moderation</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -76,7 +76,7 @@
 </li>
                                     
 <li>
-    <a href="../commands/" class="dropdown-item">🛡️ Commands and Permissions</a>
+    <a href="./" class="dropdown-item active" aria-current="page">🛡️ Commands and Permissions</a>
 </li>
                                 </ul>
                             </li>
@@ -164,6 +164,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../staff-guidelines/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../server-setup/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -182,39 +192,48 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#advertising-guide" class="nav-link">📢 Advertising Guide</a>
+            <li class="nav-item" data-bs-level="1"><a href="#commands-and-permissions" class="nav-link">🛡️ Commands and Permissions</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#1-posting-ads" class="nav-link">1. Posting Ads</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#where-to-advertise" class="nav-link">Where to Advertise</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#2-when-to-advertise" class="nav-link">2. When To Advertise</a>
+            <li class="nav-item" data-bs-level="1"><a href="#1-vanilla-commands" class="nav-link">1. Vanilla Commands</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#3-reddit-advertisement-templates" class="nav-link">3. Reddit Advertisement Templates</a>
+            <li class="nav-item" data-bs-level="1"><a href="#2-datapack-plugin-management" class="nav-link">2. Datapack &amp; Plugin Management</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#post-title" class="nav-link">Post Title</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#post-body" class="nav-link">Post Body</a>
+            <li class="nav-item" data-bs-level="2"><a href="#datapack-commands" class="nav-link">Datapack Commands</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#4-special-cases-when-posting" class="nav-link">4. Special Cases When Posting</a>
+            <li class="nav-item" data-bs-level="1"><a href="#3-plugin-commands" class="nav-link">3. Plugin Commands</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#coreprotect" class="nav-link">CoreProtect</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#openinv" class="nav-link">OpenInv</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#vanish" class="nav-link">Vanish</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#4-command-usage-guidelines" class="nav-link">4. Command Usage Guidelines</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#5-permission-groups" class="nav-link">5. Permission Groups</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -223,69 +242,69 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="advertising-guide">📢 <strong>Advertising Guide</strong></h1>
-<p>This document provides a <strong>guide for advertising the Grimwald server</strong> to attract new members. Follow these standards to maintain a consistent and effective presence across platforms.</p>
+<h1 id="commands-and-permissions">🛡️ <strong>Commands and Permissions</strong></h1>
+<p>This document outlines the <strong>admin commands</strong> used on the server, how to use them, and the different <strong>permission groups</strong> assigned to players.  </p>
 <hr />
-<h1 id="1-posting-ads"><strong>1. Posting Ads</strong></h1>
-<h2 id="where-to-advertise"><strong>Where to Advertise</strong></h2>
+<h1 id="1-vanilla-commands"><strong>1. Vanilla Commands</strong></h1>
+<p>These are built-in Minecraft commands available to admins:  </p>
 <ul>
-<li>Primary advertising platforms:</li>
-<li><a href="https://www.reddit.com/r/MinecraftBuddies/">r/MinecraftBuddies</a> (<strong>Java-Hosting</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/mcservers/">r/mcservers</a> (<strong>SMP</strong> flair)</li>
-<li><a href="https://www.reddit.com/r/MinecraftServer/">r/MinecraftServer</a> (<strong>Advertising</strong> flair)</li>
-<li>You are encouraged to advertise in other relevant communities as well, as long as they permit server advertisements and align with Grimwald's standards.</li>
-<li>You are also free to expand and advertise on other platforms too but we have not done this in the past.</li>
+<li><strong><code>/ban &lt;username&gt;</code></strong> – Bans a player from the server.  </li>
+<li><strong><code>/kick &lt;username&gt;</code></strong> – Kicks a player from the server (they can rejoin immediately).  </li>
+<li><strong><code>/tp &lt;your username&gt; &lt;destination or username&gt;</code></strong> – Teleports you to a player or specific location.  </li>
+<li><strong><code>/restart</code></strong> – Restarts the server without data loss. Use this if the server is experiencing severe lag. Before restarting, check with other players to confirm the issue isn't client-side.  </li>
+<li><strong><code>/tps</code></strong> – Displays the server's <strong>ticks per second (TPS)</strong>, a key performance metric:  </li>
+<li><strong>20 TPS</strong> = Ideal performance.  </li>
+<li><strong>Below 15 TPS</strong> = Consider restarting the server.  </li>
+<li><strong>If frequent low TPS persists</strong> = Hardware upgrades may be required.  </li>
 </ul>
 <hr />
-<h1 id="2-when-to-advertise"><strong>2. When To Advertise</strong></h1>
+<h1 id="2-datapack-plugin-management"><strong>2. Datapack &amp; Plugin Management</strong></h1>
+<h2 id="datapack-commands"><strong>Datapack Commands</strong></h2>
 <ul>
-<li>You should post ads when the server activity is low.</li>
-<li>Ads can be posted mid season or in preperation for the beginning of a new season.</li>
-<li>Grimwald is designed to be a small server, adding people is fine when needed but don't post ads for new people excessively.</li>
+<li><strong>Never use <code>/reload</code></strong> – This can break plugins and cause server instability.  </li>
+<li><strong><code>/datapack list</code></strong> – Lists all installed datapacks, showing which are enabled/disabled.  </li>
+<li><strong><code>/datapack enable &lt;datapack_name&gt;</code></strong> – Enables a specific datapack.  </li>
+<li><strong>Installing Plugins:</strong> Requires a <strong>full server restart</strong> (<code>/restart</code>) or using the <strong>server console</strong>. Note that depending on the server setup, <code>/restart</code> may shut down the server without restarting it.  </li>
 </ul>
 <hr />
-<h1 id="3-reddit-advertisement-templates"><strong>3. Reddit Advertisement Templates</strong></h1>
-<h2 id="post-title"><strong>Post Title</strong></h2>
-<pre><code>Grimwald SMP [SMP]{java}{1.21}{Semi-Vanilla}{16+}{whitelist}{discord}
-</code></pre>
+<h1 id="3-plugin-commands"><strong>3. Plugin Commands</strong></h1>
+<h2 id="coreprotect"><strong>CoreProtect</strong></h2>
 <ul>
-<li>Replace <code>1.21</code> with the <strong>current server version</strong>.</li>
-<li>Replace <code>Semi-Vanilla</code> with <code>Modded</code> if advertising a modded season.</li>
-<li>Adjust the <strong>age limit</strong> if it changes.</li>
-<li><strong>Note:</strong> r/mcservers strictly enforces this title format. You can be more creative with titles on other subreddits if permitted.</li>
+<li><strong><code>/co i</code></strong> – Toggles inspector mode:  </li>
+<li><strong>Right-click</strong> = Check block interactions.  </li>
+<li><strong>Left-click</strong> = Check chest/container transactions.  </li>
+<li><strong><code>/co l &lt;page_number&gt;</code></strong> – Select a page to view in logs from inspector mode.  </li>
+<li><strong><code>/co rollback &lt;radius&gt; &lt;time&gt;</code></strong> – Rolls back an area to a previous state.</li>
+<li>Use log timestamps to determine the rollback time.</li>
+<li>Be aware that some redstone machines (e.g., flying machines) may break when rolled back.  </li>
 </ul>
-<h2 id="post-body"><strong>Post Body</strong></h2>
-<pre><code>About Us
-We are a small, mainly vanilla server with quality of life datapacks from Vanilla Tweaks and essential plugins to protect against hackers and griefers. Anyone is welcome as long as they follow the rules.
-
-Features
-- Proximity voice chat (optional)
-- Vanilla Tweaks datapacks for quality of life improvements
-- CoreProtect instead of land claims to protect the server (allows world rollbacks and bans for griefers)
-- Hard difficulty
-- Democracy — major server decisions are voted on by the players
-- Updates to new Minecraft versions soon after release
-- Vanilla-like configs — TNT, rail, and carpet duping allowed; bedrock breaking enabled
-- Friendly and active community
-- Minigames and events
-- Group projects
-- No pay-to-win elements or vote rewards
-
-Apply Here:
-https://forms.gle/uKNZd6JzVjRjQK5H9
-</code></pre>
+<p><strong>Optional rollback filters:</strong><br />
+- <strong><code>&lt;username&gt;</code></strong> – Rollback actions from a specific user.<br />
+- <strong><code>&lt;include items&gt;</code></strong> – Specify items/blocks to restore.<br />
+- <strong><code>&lt;exclude items&gt;</code></strong> – Specify items/blocks to ignore.<br />
+- <strong><code>&lt;action&gt;</code></strong> – Rollback only certain actions.</p>
+<h2 id="openinv"><strong>OpenInv</strong></h2>
 <ul>
-<li><strong>Update details</strong> as needed depending on the current season.</li>
-<li>You are encouraged to <strong>expand or personalize</strong> the description if appropriate while maintaining a professional and inviting tone.</li>
+<li><strong><code>/oi &lt;player_name&gt;</code></strong> – Opens a player's inventory (even if offline). Useful for detecting stolen or illegally obtained items.  </li>
+<li><strong><code>/oe &lt;player_name&gt;</code></strong> – Opens a player's Ender Chest (even if offline). Another place to check for cheats/dupes.  </li>
+</ul>
+<h2 id="vanish"><strong>Vanish</strong></h2>
+<ul>
+<li><strong><code>/vanish</code></strong> – Toggles invisibility and removes the player from the online list. Useful for monitoring players discreetly. Can be combined with spectator mode (<code>/gamemode spectator</code>) for easier movement.  </li>
 </ul>
 <hr />
-<h1 id="4-special-cases-when-posting"><strong>4. Special Cases When Posting</strong></h1>
+<h1 id="4-command-usage-guidelines"><strong>4. Command Usage Guidelines</strong></h1>
+<p>For specific instructions on command usage and staff protocols, refer to the <strong><a href="../staff-guidelines/">Staff Guidelines</a></strong>.  </p>
+<hr />
+<h1 id="5-permission-groups"><strong>5. Permission Groups</strong></h1>
+<p>The server has different permission levels we use these need set up with a permissions manager plugin (We usually use <strong>Luckperms</strong>) based on responsibility and trust:  </p>
 <ul>
-<li>Some subreddits (e.g., <strong>r/MinecraftBuddies</strong>) <strong>do not allow links</strong> in posts.</li>
-<li>In such cases, replace the application link with one of the following alternatives:</li>
-<li><em>"Not allowed to post links here, check my other recent posts for the application link."</em> (if you have posted elsewhere recently)</li>
-<li><em>"Not allowed to post links here, check my bio for the application link."</em> (if you have the link in your Reddit profile bio)</li>
-</ul></div>
+<li><strong>Whitelister</strong> – Trusted non-staff members who can <strong>add/remove players from the whitelist</strong>. <strong>(Use caution when assigning this role to prevent abuse.)</strong>  </li>
+<li><strong>Inspector</strong> – Entry-level staff who are limited to <strong>whitelisting players, inspecting logs, and issuing temporary bans</strong> who must consult higher staff before permanent ban.  </li>
+<li><strong>Staff</strong> – Full moderation access, including all commands listed in this document.  </li>
+<li><strong>Op (Operator)</strong> – Highest permission level, typically reserved for the <strong>owner(s)</strong>. Operators have unrestricted access to all server commands, often used for technical maintenance. <strong>(Very few players should have this role.)</strong>  </li>
+</ul>
+<hr /></div>
             </div>
         </div>
 
