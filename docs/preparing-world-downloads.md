@@ -12,9 +12,10 @@ This document provides a complete guide for downloading, trimming, formatting, b
 ## **If using Paper**
 - If the server runs Paper, you must also download `world_nether` and `world_the_end`.
 - Extract the compressed file and create a backup copy before making changes.
-- Rename `world_nether` to `DIM-1`
-- Rename `world_the_end` to `DIM1`
-- Move both renamed folders into the main `world` directory
+- Open `world_nether` and copy `DIM-1` folder.
+- Paste this into the main `world` folder.
+- Open `world_the_end` and copy `DIM1` folder.
+- Paste this into the main `world` folder.
 
 *Note: Older seasons may lack Nether/End data due to this issue being discovered later.*
 
