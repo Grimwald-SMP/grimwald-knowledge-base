@@ -12,25 +12,21 @@ nav:
   - "📚 Donations": donations.md
 - 🛡️ Moderation:
   - "🛡️ Staff Guidelines": staff-guidelines.md
-  - "🛡️ Rule Enforcement": rule-enforcement.md
   - "🛡️ Commands and Permissions": commands.md
-  - "🛡️ Report a Player": report.md
-  - "🛡️ Ban Appeals": ban-appeals.md
 - 🛠️ Server Management:
   - "🛠️ Setting Up": server-setup.md
   - "🛠️ Payments": payments.md
   - "🛠️ Plugins": plugins.md
-  - "🛠️ Mods": mods.md
   - "🛠️ Datapacks": datapacks.md
+  - "🛠️ Preparing World Downloads": preparing-world-downloads.md
 - 🌐 Website:
-  - "🌐 Updating the Website": update-website.md
+  - "🌐 Updating the Website": website.md
   - "🌐 Timeline": timeline.md
   - "🌐 Stats": stats.md
 - 🫂 Community:
   - "🫂 Join Process": joining.md
   - "🫂 Advertising": advertising.md
-  - "🫂 Brand Guidelines": brand-guidelines.md
-  - "🫂 Feedback and Suggestions": feedback.md
+  - "🫂 Brand Guidelines": branding.md
 - 📜 Docs:
   - "📜 Contributing": contributing.md
   - "📜 Standards": standards.md

@@ -51,7 +51,7 @@ This document outlines the **standards and guidelines** for creating and maintai
 
 ---
 
-## **3. Content Guidelines**  
+# **3. Content Guidelines**  
 
 ## **Accuracy & Up-to-Date Information**
 - Only **accurate, verified information** should be included in the knowledge base.  
@@ -65,7 +65,7 @@ This document outlines the **standards and guidelines** for creating and maintai
 ## **Objectivity**
 - Maintain an **objective** point of view when discussing issues such as player reports, rule enforcement, or conflict resolution.  
 - Avoid personal opinions or biased language.
-- Avoid sentitive topics, real world drama or anything that could be damaging to the brand. [see the Brand Guidelines](brand-guidelines.md).
+- Avoid sentitive topics, real world drama or anything that could be damaging to the brand. [see the Brand Guidelines](branding.md).
 - Do not mention players or members of staff by their real or online names anywhere in these documents.
 
 ## **Community Input**

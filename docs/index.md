@@ -4,6 +4,10 @@ Welcome to the Grimwald Knowledge Base, the central hub for all information rela
 covering everything from server rules and moderation policies to technical maintenance, branding guidelines, and community engagement. Our goal is to ensure that anyone involved in Grimwald—whether
 a new player, a seasoned veteran, or a staff member—can quickly find the information they need to navigate, enjoy or contribute to the server.
 
+## World Downloads
+- Looking for world downloads?
+- Visit [Grimwald-SMP GitHub](https://github.com/Grimwald-SMP/)
+
 ## Purpose of these Docs
 The Grimwald Knowledge Base is designed to:
 

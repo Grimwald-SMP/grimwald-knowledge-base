@@ -1,61 +1,69 @@
-# Advertising Guide
-- This document aims to provide a guide for advertising the server in order to get new members.
+# 📢 **Advertising Guide**
 
-# Posting Ads
-## Where to advertise
-- We usually advertise to reddit in the following communities:
-    - r/MinecraftBuddies (Java-Hosting Flair)
-    - r/mcservers (SMP Flair)
-    - r/MinecraftServer (Advertising Flair)
-- However you can advertise wherever you want.
+This document provides a **guide for advertising the Grimwald server** to attract new members. Follow these standards to maintain a consistent and effective presence across platforms.
 
-## Reddit advertisement templates
-- For the title
+---
+
+# **1. Posting Ads**
+
+## **Where to Advertise**
+- Primary advertising platforms:
+  - [r/MinecraftBuddies](https://www.reddit.com/r/MinecraftBuddies/) (**Java-Hosting** flair)
+  - [r/mcservers](https://www.reddit.com/r/mcservers/) (**SMP** flair)
+  - [r/MinecraftServer](https://www.reddit.com/r/MinecraftServer/) (**Advertising** flair)
+- You are encouraged to advertise in other relevant communities as well, as long as they permit server advertisements and align with Grimwald's standards.
+- You are also free to expand and advertise on other platforms too but we have not done this in the past.
+
+---
+
+# **2. When To Advertise**
+- You should post ads when the server activity is low.
+- Ads can be posted mid season or in preperation for the beginning of a new season.
+- Grimwald is designed to be a small server, adding people is fine when needed but don't post ads for new people excessively.
+
+---
+
+# **3. Reddit Advertisement Templates**
+
+## **Post Title**
 ```
 Grimwald SMP [SMP]{java}{1.21}{Semi-Vanilla}{16+}{whitelist}{discord}
 ```
+- Replace `1.21` with the **current server version**.
+- Replace `Semi-Vanilla` with `Modded` if advertising a modded season.
+- Adjust the **age limit** if it changes.
+- **Note:** r/mcservers strictly enforces this title format. You can be more creative with titles on other subreddits if permitted.
 
-- Replace 1.21 with the current version the server is running
-- Semi-Vanilla can be replaced with Modded for modded seasons.
-- Age limit can be replaced in the event the age limit changes
-- r/mcservers strictly enforces this title naming convention, but feel free to be more creative on other subreddits.
-
-- For the body
+## **Post Body**
 ```
-About us
-we are a small mainly vanilla server with some quality of life datapacks from vanilla tweaks and plugins to protect the server from hackers and griefers. Anyone is welcome as long as you follow the rules
-
+About Us
+We are a small, mainly vanilla server with quality of life datapacks from Vanilla Tweaks and essential plugins to protect against hackers and griefers. Anyone is welcome as long as they follow the rules.
 
 Features
-
-- Proximity voicechat, this is optional but it's there if you want to use it
-
-- Vanilla tweaks datapacks for quality of life
-
-- Coreprotect instead of land claim to protect the server against theft and griefing (This allows us to revert the world to previous states and ban those responsible)
-
+- Proximity voice chat (optional)
+- Vanilla Tweaks datapacks for quality of life improvements
+- CoreProtect instead of land claims to protect the server (allows world rollbacks and bans for griefers)
 - Hard difficulty
-
-- Democracy, all major server decisions are voted on by the players
-
-- Updates to new versions soon after they come out
-
-- Vanilla like configs, TNT, rail and carpet duping is allowed, bedrock breaking works etc.
-
-- Friendly community
-
+- Democracy — major server decisions are voted on by the players
+- Updates to new Minecraft versions soon after release
+- Vanilla-like configs — TNT, rail, and carpet duping allowed; bedrock breaking enabled
+- Friendly and active community
 - Minigames and events
-
 - Group projects
+- No pay-to-win elements or vote rewards
 
-- No pay to win or voting to access stuff
-
-
-Apply here:
+Apply Here:
 https://forms.gle/uKNZd6JzVjRjQK5H9
 ```
-- You may need to changed details depending on the season.
-- Feel free to change the description or expand on it.
-- Some subreddits (Just r/MinecraftBuddies out of the ones listed above) don't allow links, If this is the case replace the link with one of the following:
-    - `Not allowed to post links here, check my other recent posts for the application link' (Assuming you have posted to other subreddits beforehand)
-    - 'Not allowed to post links here, check my bio for the application link' (Assuming you have the link in your bio)
+
+- **Update details** as needed depending on the current season.
+- You are encouraged to **expand or personalize** the description if appropriate while maintaining a professional and inviting tone.
+
+---
+
+# **4. Special Cases When Posting**
+
+- Some subreddits (e.g., **r/MinecraftBuddies**) **do not allow links** in posts.
+- In such cases, replace the application link with one of the following alternatives:
+  - *"Not allowed to post links here, check my other recent posts for the application link."* (if you have posted elsewhere recently)
+  - *"Not allowed to post links here, check my bio for the application link."* (if you have the link in your Reddit profile bio)

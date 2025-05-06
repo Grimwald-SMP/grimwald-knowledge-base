@@ -1,45 +1,52 @@
+
+/* Remove the default grid pattern and color the background to be gray*/
 body::before {
     background: none;
     background-color: #343232;
 }
 
-p, ul, ol, a, h1, h2 {
+/* Color all text (except the search bar) to be white*/
+p, ul, ol, a, h1, h2, .modal-header, a.nav-link {
     color: white;
 }
 
+/* Remove the default navbar background image*/
 .navbar.bg-primary {
     background-image: none;
 }
 
+/* Color the navbar background to be orange*/
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: #fe6a00 !important;
 }
 
-a.nav-link {
-    color: white;
-}
-
+/* Color the nav links to be gray when hovered*/
 a.nav-link:hover {
     color: #343232;
 }
 
+/* Hide Previous and Next Buttons*/
+a[rel="next"], a[rel="prev"] {
+    display: none;
+}
+
+/* Color the side nav and drop down menu backgrounds to be orange*/
 .bg-body-tertiary, .dropdown-menu {
     background-color: #fe6a00 !important;
 }
 
+/* Color the drop down menu text to be white*/
 .dropdown-item {
     color: white;
 }
 
+/* Color the drop down menu text to be gray on hover*/
 .dropdown-item:hover {
     background-color: #343232;
 }
 
-.modal-header {
-    color: white;
-}
-
+/* Color the search modal to be orange*/
 .modal-content {
     background-color: #fe6a00;
 }

@@ -1,5 +1,11 @@
 # 📚 **Donations**
 
+This document outlines the way in which donations work on the server.
+
+---
+
+# **1. Donating**
+
 - **Donations are completely optional**—no player is required to contribute financially.
 - All donations go **directly toward covering the server’s monthly operating costs**.
 - If donations exceed the standard monthly price, **extra funds may be used for necessary performance upgrades** to improve the server experience. If this is not required, donations will be saved to spend on future standard billing cycles.
